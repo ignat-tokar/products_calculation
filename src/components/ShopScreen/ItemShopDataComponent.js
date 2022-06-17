@@ -29,7 +29,7 @@ function ItemShopDataComponent ({
   }
 
   function onEditItem(){
-    navigate(`/reckoning/shop/edit/?id=${id}`)
+    navigate(`/products_calculation/shop/edit/?id=${id}`)
   }
 
   function onCheckHandler(){

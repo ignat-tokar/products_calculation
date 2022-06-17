@@ -1,6 +1,6 @@
 export let store = []
 
-const ITEMS = 'reckoning/items/23984us92904';
+const ITEMS = 'products_calculation/items/23984us92904';
 
 export let summaryProfit = 0;
 

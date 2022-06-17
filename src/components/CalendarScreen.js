@@ -5,7 +5,7 @@ function CalendarScreen() {
   return (
     <>
       <div className={'backButtonBlock'}>
-        <button className={'backButton'} onClick={() => navigate('/reckoning')}>Назад</button>
+        <button className={'backButton'} onClick={() => navigate('/products_calculation')}>Назад</button>
       </div>
       <h1>Сатистика по днях</h1>
     </>

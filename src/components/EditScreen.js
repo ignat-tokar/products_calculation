@@ -49,17 +49,17 @@ function EditScreen() {
       priceSell: Number.parseInt(priceSell),
     }]
     editItem(editedItem);
-    navigate('/reckoning');
+    navigate('/products_calculation');
   }
   function deleteClickHandler() {
     deleteItem(id);
-    navigate('/reckoning');
+    navigate('/products_calculation');
   }
 
   return (
     <>
       <div className={'backButtonBlock'}>
-        <button className={'backButton'} onClick={() => navigate('/reckoning')}>Назад</button>
+        <button className={'backButton'} onClick={() => navigate('/products_calculation')}>Назад</button>
         <button className={'deleteButton'} onClick={deleteClickHandler}>Видалити</button>
       </div>
       <h2>Редагування товару</h2>

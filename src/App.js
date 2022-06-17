@@ -14,13 +14,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/reckoning" element={<MainScreen />} />
-          <Route path="/reckoning/add" element={<AddScreen />} />
-          <Route path="/reckoning/edit/*" element={<EditScreen />} />
-          <Route path="/reckoning/calendar" element={<CalendarScreen />} />
-          <Route path="/reckoning/shop" element={<ShopScreen />} />
-          <Route path="/reckoning/shop/add" element={<AddShopScreen />} />
-          <Route path="/reckoning/shop/edit/*" element={<EditShopScreen />} />
+          <Route path="/products_calculation" element={<MainScreen />} />
+          <Route path="/products_calculation/add" element={<AddScreen />} />
+          <Route path="/products_calculation/edit/*" element={<EditScreen />} />
+          <Route path="/products_calculation/calendar" element={<CalendarScreen />} />
+          <Route path="/products_calculation/shop" element={<ShopScreen />} />
+          <Route path="/products_calculation/shop/add" element={<AddShopScreen />} />
+          <Route path="/products_calculation/shop/edit/*" element={<EditShopScreen />} />
         </Routes>
       </BrowserRouter>
     </div>

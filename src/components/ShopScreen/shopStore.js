@@ -2,7 +2,7 @@ import { addShopItem } from "./../localStore";
 
 export let shopStore = []
 
-const SHOP_ITEMS = 'reckoning/shopitems/23984us92904';
+const SHOP_ITEMS = 'products_calculation/shopitems/23984us92904';
 
 export let summuryExpense = 0;
 

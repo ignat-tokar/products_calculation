@@ -10,13 +10,13 @@ function ShopScreen() {
   const [items, setItems] = useState(getData());
 
   function addClickHandler() {
-    navigate('/reckoning/shop/add');
+    navigate('/products_calculation/shop/add');
   }
 
   return (
     <>
       <div className={'backButtonBlock'}>
-        <button className={'backButton'} onClick={() => navigate('/reckoning')}>Назад</button>
+        <button className={'backButton'} onClick={() => navigate('/products_calculation')}>Назад</button>
       </div>
       <h2>Корзина</h2>
       <table>

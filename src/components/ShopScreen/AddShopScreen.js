@@ -33,13 +33,13 @@ function AddShopScreen() {
       priceSell: Number.parseInt(priceSell),
     }]    
     addNewShopItem(item);
-    navigate('/reckoning/shop');
+    navigate('/products_calculation/shop');
   }
 
   return (
     <>
       <div className={'backButtonBlock'}>
-        <button className={'backButton'} onClick={() => navigate('/reckoning/shop')}>Назад</button>
+        <button className={'backButton'} onClick={() => navigate('/products_calculation/shop')}>Назад</button>
       </div>
       <h2>Данi нової одиницi товару</h2>
       <input value={title} onChange={onTitleChange} placeholder="Назва товару" />

@@ -11,15 +11,15 @@ function MainScreen() {
   const [items, setItems] = useState(getData());
 
   function addClickHandler() {
-    navigate('/reckoning/add');
+    navigate('/products_calculation/add');
   }
 
   return (
     <>
       <div className={'exitButtonBlock'}>
         <button className={'backButton'} onClick={() => window.close()}>Вийти</button>
-        <img src={shopImage} onClick={()=> navigate('/reckoning/shop')} />
-        {/* <img style={{marginRight: '20pt'}} src={calendarImage} onClick={()=> navigate('/reckoning/calendar')} /> */}
+        <img src={shopImage} onClick={()=> navigate('/products_calculation/shop')} />
+        {/* <img style={{marginRight: '20pt'}} src={calendarImage} onClick={()=> navigate('/products_calculation/calendar')} /> */}
       </div>    
       <h2>Список всiх товарiв</h2>
       <table>

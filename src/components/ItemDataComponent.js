@@ -28,7 +28,7 @@ function ItemDataComponent ({
   }
 
   function onEditItem(){
-    navigate(`/reckoning/edit/?id=${id}`)
+    navigate(`/products_calculation/edit/?id=${id}`)
   }
 
   return (
